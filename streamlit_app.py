@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Title of the page
-st.title("YouTube and Quizizz Page")
+st.title("Quiz")
 
 # Hardcoded YouTube and Quizizz embeds
 video_id = "6v0Q-2IhqrE&t"
@@ -18,4 +18,4 @@ st.write(" ")
 quiz_url = f"https://quizizz.com/join/quiz/{quiz_id}/start"
 st.markdown(f'<iframe src="{quiz_url}" width="100%" height="600px" frameborder="0"></iframe>', unsafe_allow_html=True)
 
-st.sidebar.text("Made with Streamlit")
+
